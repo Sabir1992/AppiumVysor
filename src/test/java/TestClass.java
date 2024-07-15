@@ -15,6 +15,7 @@ public class TestClass {
 
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 
+        // test
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "SM A135F");
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "13.0");
