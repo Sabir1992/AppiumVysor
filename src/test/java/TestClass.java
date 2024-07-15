@@ -30,6 +30,8 @@ public class TestClass {
                 "ImageView[@resource-id=\"trendyol.com:id/buttonDismiss\"]");
         element1.click();
 
+        //
+        
         Thread.sleep(2000);
         MobileElement element2 = driver.findElementByXPath("//android.widget." +
                 "ImageButton[@resource-id=\"trendyol.com:id/imageButtonClose\"]");
